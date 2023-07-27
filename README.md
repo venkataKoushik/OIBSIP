@@ -1,4 +1,4 @@
-# Coca-Cola-Landing-Page
+# OIBSIP
 <h1>Coca Cola Landing Page using CSS &amp; HTML</h1>
 
 
