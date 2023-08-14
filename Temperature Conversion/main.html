@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrows-exchange-alt.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <div class="sheet">
+            <h1 class="header">Temperature Conversion</h1>
+            <div class="conbox">
+                <div class="types">
+                    <label for="celsius" class="name">Celsius</label>
+                    <input type="number" id="celsius" oninput= "celToFar()">
+                </div>
+                <div class="symbol">
+                    <p>&#8920;</p>
+                    <p>&#8921;</p>
+                </div>
+                <div class="types">
+                    <label for="fahrenheit" class="name">Fahrenheit</label>
+                    <input type="number" id="fahrenheit" oninput = "farToCel()">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
